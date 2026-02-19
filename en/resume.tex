@@ -1,0 +1,180 @@
+% Start of LaTeX document: defines document type and format
+% a4paper = A4 page size, 10pt = base font size
+\documentclass[a4paper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% --- DOCUMENT SETUP ---
+% Set page margins to maximize content space
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+
+% Remove page numbers and headers for clean resume look
+\pagestyle{empty}
+
+% PDF metadata - customize with your information
+\hypersetup{
+    pdftitle={CV Martim Pereira de Barros},
+    pdfauthor={Martim Pereira de Barros},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+% Disable section numbering for cleaner appearance
+\setcounter{secnumdepth}{0}
+
+% Format section headers with bold text and underline
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}
+[\titlerule\vspace{0.5ex}]
+
+% --- BEGIN DOCUMENT ---
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\LARGE \textbf{Martim Pereira de Barros}} 
+    \\ [0.1cm]
+    Azores, Portugal
+    {\textbullet}
+    Email: \href{mailto:mpdb2016@gmail.com}{mpdb2016@gmail.com} 
+    {\textbullet}
+    \href{https://www.linkedin.com/in/martim-barros-dev/}{linkedin.com/in/martim-barros-dev} 
+    {\textbullet}
+    \href{https://github.com/barrosw5}{github.com/barrosw5}
+\end{center}
+
+% --- SECTIONS ---
+
+\section{Experience}
+    \subsection*{\texorpdfstring{
+            \textbf{SoftProton} \hfill São Miguel, Azores, Portugal (On-site)
+        }{
+            SoftProton -- São Miguel, Azores, Portugal
+        }}
+    \textit{Software Developer Intern \hfill Jul 2025}
+        \begin{itemize} 
+            \item Contributed to the development of software solutions for energy analysis, focusing on both backend logic and frontend user interfaces within the renewable energy sector.
+            \item Utilized JavaScript to implement features and optimize application performance.
+            \item Collaborated with the engineering team to troubleshoot issues and improve code efficiency.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Escola Básica Integrada Canto da Maia} \hfill Ponta Delgada, Azores, Portugal
+        }{
+            Escola Básica Integrada Canto da Maia -- Ponta Delgada, Azores, Portugal
+        }}
+    \textit{Summer Camp Assistant \hfill Jul 2024}
+        \begin{itemize}
+            \item Supervised and coordinated educational and recreational activities for children aged 6-12.
+            \item Developed strong communication and conflict-resolution skills in a fast-paced environment.
+        \end{itemize}
+        
+    \subsection*{\texorpdfstring{
+            \textbf{Centro Paroquial de Bem Estar e Social de São José} \hfill Ponta Delgada, Azores, Portugal
+        }{
+            Centro Paroquial de Bem Estar e Social de São José -- Ponta Delgada, Azores, Portugal
+        }}
+    \textit{Daycare Assistant \hfill Jul 2023}
+        \begin{itemize}
+            \item Assisted in daily routines and educational activities for children aged 3-5.
+            \item Demonstrated high levels of responsibility, patience, and adaptability.
+        \end{itemize}
+
+% ------
+
+\section{Skills}
+    \begin{itemize}
+        \item \textbf{Technical Skills:} Java, Python, JavaScript, HTML5/CSS3, Object-Oriented Programming (OOP), Responsive Web Design, Git, Version Control.
+        \item \textbf{Languages:} Portuguese (Native), English (Advanced).
+    \end{itemize}
+
+% ------
+
+\section{Certifications}
+    \subsection*{\texorpdfstring{
+            \textbf{freeCodeCamp} \hfill Online
+        }{
+            freeCodeCamp -- Online
+        }}
+    \textit{Responsive Web Design \hfill Feb 2026}
+        \begin{itemize}
+            \item Credential ID: \href{https://www.freecodecamp.org/certification/barrosw5/responsive-web-design-v9}{barrosw5-rwdv9}
+        \end{itemize}
+        
+    \subsection*{\texorpdfstring{
+            \textbf{freeCodeCamp} \hfill Online
+        }{
+            freeCodeCamp -- Online
+        }}
+    \textit{Legacy Responsive Web Design V8 \hfill Feb 2026}
+        \begin{itemize}
+            \item Credential ID: \href{https://www.freecodecamp.org/certification/barrosw5/responsive-web-design}{barrosw5-rwd}
+        \end{itemize}
+
+% ------
+
+\section{Education}
+    \subsection*{\texorpdfstring{
+            \textbf{Iscte - Instituto Universitário de Lisboa} \hfill Lisbon, Portugal
+        }{
+            Iscte - Instituto Universitário de Lisboa -- Lisbon, Portugal
+        }}
+    \textit{Licenciatura (B.Sc. equivalent) in Computer Engineering \hfill Sep 2024 - Jun 2027}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Escola Secundária Domingos Rebelo} \hfill Ponta Delgada, Azores, Portugal
+        }{
+            Escola Secundária Domingos Rebelo -- Ponta Delgada, Azores, Portugal
+        }}
+    \textit{High School Diploma in Science and Technologies \hfill Sep 2021 - Jun 2024}
+        \begin{itemize}
+            \item \textbf{Final Grade:} 16/20
+        \end{itemize}
+
+% ------
+
+\section{Extracurricular Activities} 
+    \subsection*{\texorpdfstring{
+            \textbf{Associação Antigos Alunos} \hfill Ponta Delgada, Azores, Portugal
+        }{
+            Associação Antigos Alunos -- Ponta Delgada, Azores, Portugal
+        }}
+    \textit{Student Athlete -- Volleyball \hfill Sep 2018 - Jun 2024}
+        \begin{itemize}
+            \item Fostered strong communication, team dynamics, and leadership skills in a highly collaborative, fast-paced sports environment.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Clube Karaté Shotokan da Relva} \hfill Ponta Delgada, Azores, Portugal
+        }{
+            Clube Karaté Shotokan da Relva -- Ponta Delgada, Azores, Portugal
+        }}
+    \textit{Student Athlete -- Karate \hfill Sep 2013 - Jun 2021}
+        \begin{itemize}
+            \item Developed strong mental resilience, adaptability, and goal-oriented focus through years of dedicated martial arts training.
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+            \textbf{Conservatório Regional de Ponta Delgada} \hfill Ponta Delgada, Azores, Portugal
+        }{
+            Conservatório Regional de Ponta Delgada -- Ponta Delgada, Azores, Portugal
+        }}
+    \textit{Classical Guitar Student \hfill Sep 2013 - Jun 2021}
+        \begin{itemize}
+            \item Cultivated strong discipline, time-management, and long-term commitment by balancing rigorous musical studies alongside academic responsibilities for 8 years.
+        \end{itemize}
+
+\end{document}
